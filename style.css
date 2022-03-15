@@ -4,6 +4,7 @@ body {
     width: 100%;
     display: flex;
     flex-direction: column;
+    font-family: "Roboto", sans-serif;
 }
 
 .top {
@@ -11,24 +12,73 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    flex: 1;
 }
 
 .header {
-    color: white;
+    color: #F9FAF8;
     width: 960px;
     display: flex;
+    padding-top: 12px;
+    padding-bottom: 24px;
+    font-size: 24px;
 }
 
+.top_links {
+    margin-left: auto;
+}
 .blurb {
     color: white;
     width: 960px;
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 12px;
 }
+
+.sign_up {
+    border-radius: 5px;
+    background: #3882F6;
+    padding: 3px 10px;
+    width: fit-content;
+    color: white;
+}
+
+.top_text {
+    width: 450px;
+    font: 48px extra-bold #F9FAF8
+}
+
+.top_text p {
+    font-size: 18px;
+    color: #E5E7EB
+}
+
 .two {
     background-color: white;
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding-bottom: 16px;
+    flex: 1;
+    
+}
+
+.items {
+    display: flex;
+    column-gap: 52px;
+    justify-content: center;
+}
+
+.item {
+    max-width: 200px;
+    text-align: center;
+}
+.item img {
+    width: 100px;
+    height: 100px;
+    border: 3px solid #3882F6;
+    border-radius: 5px;    
 }
 
 .three {
@@ -36,6 +86,20 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    flex: 1;
+}
+
+.quote {
+    font-size: 36px;
+    width: 960px;
+}
+
+.author {
+    width: 960px;
+    align-self: flex-end;
+
 }
 
 .four {
@@ -43,6 +107,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    flex: 1;
 }
 
 .footer {
@@ -57,16 +122,23 @@ ul {
     display: flex;
     margin: 0;
     list-style-type: none;
-    margin: 0;
     padding: 0;
 }
 
+li {
+    margin-left: 20px;
+}
+
 .placeholder {
-    width: 300px;
+    width: 400px;
     height: auto;
 }
 
-a {
+.header a {
     text-decoration: none;
-    color: white;
+    font-size: 18px;
+    color: #E5E7EB
 }
+
+
+
